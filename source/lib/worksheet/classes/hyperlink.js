@@ -36,7 +36,7 @@ class Hyperlink { //§18.3.1.47 hyperlink (Hyperlink)
             thisEle.att('display', this.display);
         }
         if (this.location !== undefined) {
-            thisEle.att('location', this.location);
+            thisEle.att('address', this.location);
         } 
         if (this.tooltip !== undefined) {
             thisEle.att('tooltip', this.tooltip);
